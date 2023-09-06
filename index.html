@@ -36,107 +36,84 @@
   </head>
 
   <body>
-    <div class="header">
-      <div class="header-wrap row">
-        <div class="header-wrap-left col-md-12 col-xxl-3">
-          <img src="images/logo.png" />
-        </div>
-        <!--header-wrap-left-->
-
-        <div class="header-wrap-right col-md-12 col-xxl-9">
-          <div class="menu-desktop">
-            <ul class="p-5 nav">
-              <li class="menu-link nav-item">
-                <a href="#home">INÍCIO</a>
-              </li>
-              <li class="menu-link nav-item">
-                <a href="#products">PRODUTOS</a>
-              </li>
-              <li class="menu-link nav-item">
-                <a href="#contact">CONTATO</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://www.instagram.com/ladolce_fe/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://www.facebook.com/ladolcefe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <!--menu-desktop-->
-        </div>
-        <!--header-wrap-right-->
-
-        <div class="header-mobile">
-          <div class="container-mobile">
-            <div id="flip" class="menu-icon">
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <!--menu-icon-->
-            <div class="logo-mobile">
-              <a href="index.php"><img src="images/logo.png" /></a>
-            </div>
-            <!--logo-mobile-->
-          </div>
-          <!--container-mobile-->
-
-          <div id="panel" class="menu-container-mobile">
-            <div class="menu-mobile">
-              <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="path.php">GAMES</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
-              </ul>
-            </div>
-            <!--menu-mobile-->
-
-            <div class="mediasocial-mobile">
-              <ul>
-                <li>
-                  <a
-                    href="https://www.instagram.com/jr49games/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/JR49Games"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/channel/UCWSUwdrzVl9sV8oVmj7oNpQ"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-youtube"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <!--mediasocial-mobile-->
-          </div>
-          <!--menu-container-mobile-->
-        </div>
-        <!--header-mobile-->
+    <div class="header-desktop">
+      <div class="header-wrap-left">
+        <img src="images/logo.png" />
       </div>
-      <!--header-wrap-->
+      <!--header-wrap-left-->
+
+      <div class="header-wrap-right">
+        <div class="menu-desktop">
+          <ul class="p-5 nav">
+            <li class="menu-link nav-item">
+              <a href="#home">INÍCIO</a>
+            </li>
+            <li class="menu-link nav-item">
+              <a href="#products">PRODUTOS</a>
+            </li>
+            <li class="menu-link nav-item">
+              <a href="#contact">CONTATO</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/ladolce_fe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.facebook.com/ladolcefe"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!--menu-desktop-->
+      </div>
+      <!--header-wrap-right-->
     </div>
-    <!--header-->
+    <!--header-desktop-->
+
+    <div class="header-mobile">
+      <div class="icon-logo-mobile" id="flip">
+        <a> <i class="fa-solid fa-bars"></i> </a>
+        <a href="index.html"><img src="images/logo.png" /></a>
+      </div>
+      <!--icon-logo-mobile-->
+
+      <div class="menu-container-mobile" id="panel">
+        <div class="menu-mobile">
+          <ul>
+            <li><a href="">INÍCIO</a></li>
+            <li><a href="">PRODUTOS</a></li>
+            <li><a href="">CONTATO</a></li>
+            <li>
+              <a
+                href="https://www.instagram.com/jr49games/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="last">
+              <a
+                href="https://twitter.com/JR49Games"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!--mediasocial-mobile-->
+      </div>
+      <!--menu-container-mobile-->
+    </div>
+    <!--header-mobile-->
 
     <div id="home" class="content1 row">
       <div class="content1-left col-sm-12 col-xxl-6 row">
@@ -167,9 +144,15 @@
 
     <div id="products" class="content2 row">
       <div class="content2-firstRow row">
-        <div class="flower col"><img src="images/flower2.png" /></div>
-        <div class="content2_title col"><h1>Nossas delícias</h1></div>
-        <div class="logo col"><img src="images/logo.png" /></div>
+        <div class="flower col-xxl-2 col-lg-4 col-med-3">
+          <img src="images/flower2.png" />
+        </div>
+        <div class="content2_title col-xxl-8 col-lg-4 col-med-3">
+          <h1>Nossas delícias</h1>
+        </div>
+        <div class="logo col-xxl-2 col-lg-4 col-med-3">
+          <img src="images/logo.png" />
+        </div>
       </div>
 
       <div class="content2-imageRow row">
@@ -270,7 +253,7 @@
       </div>
       <!--content4-left-->
 
-      <div class="content4-right col-sm-12 col-xxl-6">
+      <div class="content4-right col-sm-12 col-xxl-6 col-md">
         <div class="content4-right-text">
           <h1>RETIRADAS</h1>
           <p>Rua Antônio Rego 1237 - Olaria - Rio de Janeiro</p>
