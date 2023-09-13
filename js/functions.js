@@ -1,11 +1,3 @@
-//Image effect
-window.onload = function () {
-  $("#img-content1").animate({
-    opacity: "1.0",
-    width: "600px",
-  });
-};
-
 // Text effect
 var textWrapper = document.querySelector(".ml2");
 textWrapper.innerHTML = textWrapper.textContent.replace(
@@ -60,6 +52,7 @@ anime
   });
 
 //Responsive menu and icon switch
+
 $("#flip").click(function () {
   var listaMenu = $("#panel");
 

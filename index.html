@@ -4,19 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
+
     <script
       src="https://kit.fontawesome.com/1538cbfc7b.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -36,47 +26,49 @@
   </head>
 
   <body>
-    <div class="header-desktop">
-      <div class="header-wrap-left">
-        <img src="images/logo.png" />
-      </div>
-      <!--header-wrap-left-->
-
-      <div class="header-wrap-right">
-        <div class="menu-desktop">
-          <ul class="p-5 nav">
-            <li class="menu-link nav-item">
-              <a href="#home">INÍCIO</a>
-            </li>
-            <li class="menu-link nav-item">
-              <a href="#products">PRODUTOS</a>
-            </li>
-            <li class="menu-link nav-item">
-              <a href="#contact">CONTATO</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="https://www.instagram.com/ladolce_fe/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="https://www.facebook.com/ladolcefe"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-            </li>
-          </ul>
+    <header>
+      <div class="header-desktop">
+        <div class="header-wrap-left">
+          <img src="images/logo.png" />
         </div>
-        <!--menu-desktop-->
+        <!--header-wrap-left-->
+
+        <div class="header-wrap-right">
+          <div class="menu-desktop">
+            <ul>
+              <li class="menu-link">
+                <a href="#home">INÍCIO</a>
+              </li>
+              <li class="menu-link">
+                <a href="#products">PRODUTOS</a>
+              </li>
+              <li class="menu-link">
+                <a href="#contact">CONTATO</a>
+              </li>
+              <li class="">
+                <a
+                  href="https://www.instagram.com/ladolce_fe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li class="">
+                <a
+                  href="https://www.facebook.com/ladolcefe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!--menu-desktop-->
+        </div>
+        <!--header-wrap-right-->
       </div>
-      <!--header-wrap-right-->
-    </div>
-    <!--header-desktop-->
+      <!--header-desktop-->
+    </header>
 
     <div class="header-mobile">
       <div class="icon-logo-mobile" id="flip">
@@ -115,8 +107,8 @@
     </div>
     <!--header-mobile-->
 
-    <div id="home" class="content1 row">
-      <div class="content1-left col-sm-12 col-xxl-6 row">
+    <div id="home" class="content1">
+      <div class="content1-left">
         <img
           class="mx-auto d-block"
           src="images/Foto-maincontent.png"
@@ -125,135 +117,130 @@
       </div>
       <!--content1-left-->
 
-      <div class="content1-right col-sm-12 col-xxl-6 row-cols-1">
-        <div class="content1-right-wrap">
-          <div class="content1-right-text col">
-            <h1 class="ml2">Nossa Missão é adoçar sua vida!</h1>
-          </div>
-          <div class="content1-right-button col">
-            <a href="https://wa.me/5521964992206" target="_blank"
-              ><button>FAÇA SEU ORÇAMENTO!</button></a
-            >
-          </div>
+      <div class="content1-right">
+        <div class="content1-right-text">
+          <h1 class="ml2">Nossa Missão é adoçar sua vida!</h1>
         </div>
-        <!--content1-right-wrap-->
+        <div class="content1-right-button">
+          <a href="https://wa.me/5521964992206" target="_blank"
+            ><button>FAÇA SEU ORÇAMENTO!</button></a
+          >
+        </div>
       </div>
       <!--content1-right-->
     </div>
     <!--content1-->
 
-    <div id="products" class="content2 row">
-      <div class="content2-firstRow row">
-        <div class="flower col-xxl-2 col-lg-4 col-med-3">
+    <div id="products" class="content2">
+      <div class="content2-firstRow">
+        <div class="flower">
           <img src="images/flower2.png" />
         </div>
-        <div class="content2_title col-xxl-8 col-lg-4 col-med-3">
+        <div class="content2-title">
           <h1>Nossas delícias</h1>
         </div>
-        <div class="logo col-xxl-2 col-lg-4 col-med-3">
+        <div class="logo">
           <img src="images/logo.png" />
         </div>
       </div>
 
-      <div class="content2-imageRow row">
-        <div class="wrap-image col">
+      <div class="content2-imageRow">
+        <div class="wrap-image">
           <a target="_blank" href="images/bolo_floral.jpeg"
             ><img src="images/bolo_floral.jpeg" alt="Bolo Floral"
           /></a>
-          <div class="text">Bolo Floral</div>
+          <h3>Bolo Floral</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/bolo_tematico.jpeg"
             ><img src="images/bolo_tematico.jpeg" alt="Bolo Temático"
           /></a>
-          <div class="text">Bolo Temático</div>
+          <h3>Bolo Temático</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/sobremesas.jpeg"
             ><img src="images/sobremesas.jpeg" alt="Sobremesas"
           /></a>
-          <div class="text">Sobremesas</div>
+          <h3>Sobremesas</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/docinhos_gourmet.jpeg"
             ><img src="images/docinhos_gourmet.jpeg" alt="Docinhos Gourmet"
           /></a>
-          <div class="text">Docinhos Gourmet</div>
+          <h3>Docinhos Gourmet</h3>
         </div>
       </div>
 
-      <div class="content2-imageRow row">
-        <div class="wrap-image col">
+      <div class="content2-imageRow">
+        <div class="wrap-image">
           <a target="_blank" href="images/sobremesa_familia.jpeg"
             ><img src="images/sobremesa_familia.jpeg" alt="Sobremesa Família"
           /></a>
-          <div class="text">Sobremesa Família</div>
+          <h3>Sobremesa Família</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/bolos_diversos.jpeg"
             ><img src="images/bolos_diversos.jpeg" alt="Bolos Diversos"
           /></a>
-          <div class="text">Bolos Diversos</div>
+          <h3>Bolos Diversos</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/brownie.jpeg"
             ><img src="images/brownie.jpeg" alt="Brownie"
           /></a>
-          <div class="text">Brownie</div>
+          <h3>Brownie</h3>
         </div>
-        <div class="wrap-image col">
+        <div class="wrap-image">
           <a target="_blank" href="images/bolo_pote.jpeg"
             ><img src="images/bolo_pote.jpeg" alt="Bolo no Pote"
           /></a>
-          <div class="text">Bolo no Pote</div>
+          <h3>Bolo no Pote</h3>
         </div>
       </div>
 
-      <div class="content2-firstRow row">
-        <div class="col"></div>
-        <div class="col pt-5">
+      <div class="content2-secondRow">
+        <div class="button">
           <a href="https://wa.me/5521964992206" target="_blank"
             ><button>FAÇA SEU ORÇAMENTO!</button></a
           >
         </div>
-        <div class="logo col"><img src="images/flower.png" /></div>
+        <!--button-->
+        <div class="logo"><img src="images/flower.png" /></div>
+        <!--logo-->
       </div>
     </div>
-    <!--content2-->
+    <!--content2-firstRow-->
 
-    <div class="content3 row">
-      <div class="content3-left col-sm-12 col-xxl-6">
+    <div class="content3">
+      <div class="content3-left">
         <img src="images/delivery-truck.png" />
       </div>
       <!--content3-left-->
 
-      <div class="content3-right col-sm-12 col-xxl-6 row-cols-1">
-        <div class="content1-right-wrap">
-          <div class="content1-right-text col">
-            <h1>Entregamos nos mais variados locais!</h1>
-          </div>
-          <div class="content1-right-button col">
-            <a href="https://wa.me/5521964992206" target="_blank"
-              ><button id="toggle">Clique aqui e faça seu orçamento!</button></a
-            >
-          </div>
-          <div class="content3-right-image col">
-            <img src="images/flower3.png" alt="" />
-          </div>
+      <div class="content3-right">
+        <div class="content1-right-text">
+          <h1>Entregamos nos mais variados locais!</h1>
         </div>
-        <!--content1-right-wrap-->
+        <div class="content1-right-button">
+          <a href="https://wa.me/5521964992206" target="_blank"
+            ><button id="toggle">Clique aqui e faça seu orçamento!</button></a
+          >
+        </div>
+        <div class="content3-right-image">
+          <img src="images/flower3.png" alt="" />
+        </div>
       </div>
-      <!--content1-right-->
+      <!--content3-right-wrap-->
     </div>
     <!--content3-->
 
-    <div id="contact" class="content4 row">
-      <div class="content4-left col-sm-12 col-xxl-6">
+    <div id="contact" class="content4">
+      <div class="content4-left">
         <h1 class="ml13">Adoraríamos receber o seu pedido!</h1>
       </div>
       <!--content4-left-->
 
-      <div class="content4-right col-sm-12 col-xxl-6 col-md">
+      <div class="content4-right">
         <div class="content4-right-text">
           <h1>RETIRADAS</h1>
           <p>Rua Antônio Rego 1237 - Olaria - Rio de Janeiro</p>
@@ -267,7 +254,7 @@
                 ><i class="fa-brands fa-instagram"></i
               ></a>
             </li>
-            <li class="nav-item">
+            <li class="">
               <a href="" target="_blank" rel="noopener noreferrer"
                 ><i class="fa-brands fa-facebook"></i
               ></a>
@@ -285,7 +272,7 @@
     </div>
     <!--content4-->
 
-    <footer class="row">
+    <footer class="">
       <div class="logo">
         <a href="index.html"><img src="images/logo.png" /></a>
       </div>
@@ -293,7 +280,5 @@
     </footer>
     <script src="js/jquery/jquery.js"></script>
     <script src="js/functions.js"></script>
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </body>
 </html>
