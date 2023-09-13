@@ -2,6 +2,10 @@
 
 Welcome to the La dolce Fe Website project! This repository contains all the code to create a delightful website using HTML, CSS, JavaScript, and jQuery.
 
+#Preview
+
+<img src="https://github.com/sergiodosreis/ladolcefe/blob/main/preview.png" height="500"/>
+
 ##Table of Contents
 Introduction
 Getting Started
