@@ -4,7 +4,7 @@ Welcome to the La dolce Fe Website project! This repository contains all the cod
 
 #Preview
 
-<img src="https://github.com/sergiodosreis/ladolcefe/blob/main/preview.png" height="500"/>
+<img src="https://github.com/sergiodosreis/ladolcefe/blob/main/preview.png" height="300"/>
 
 ##Table of Contents
 Introduction
