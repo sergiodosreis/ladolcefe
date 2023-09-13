@@ -1,8 +1,8 @@
-# La Dolce Fe Website Readme
+# La Dolce Fe Website
 
 Welcome to the La Dolce Fe Website project! This repository contains all the code and resources necessary to create a professional and enticing commercial website using HTML, CSS, JavaScript, and jQuery. Whether you're a bakery owner looking to establish a robust online presence or a developer seeking to create a feature-rich website, this Readme will guide you through the setup and usage of this website template.
 
-# Preview
+## Preview
 
 <img src="https://github.com/sergiodosreis/ladolcefe/blob/main/preview.png" height="300"/>
 
